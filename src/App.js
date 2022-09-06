@@ -37,3 +37,4 @@ export default App;
 // Route: renders some ui (component) to the page when the path matches the current URL
 // Switch: only one route will be active at the same time, the route that is matched first
 // exact: used in congunction with Switch, only renders that component if it an exact match to the full path
+// ReDirect: Rendering a <Redirect> will navigate to a new location, the new location will override the current location in the history stack
